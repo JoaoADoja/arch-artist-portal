@@ -5,6 +5,7 @@ import threadingService from '@/assets/threading-service.jpg';
 import designService from '@/assets/design-service.jpg';
 import microbladeService from '@/assets/microblading-service.jpg';
 import hennaService from '@/assets/henna-service.jpg';
+import nanobladingReal from '@/assets/nanoblading-real.webp';
 
 interface ServicesProps {
   onBookingClick: () => void;
@@ -39,7 +40,7 @@ const Services = ({ onBookingClick }: ServicesProps) => {
       description: 'Técnica semipermanente para sobrancelhas naturais e definidas',
       price: 'R$ 350',
       duration: '2h 30min',
-      image: microbladeService,
+      image: nanobladingReal,
       features: ['Técnica fio a fio', 'Duração de 12-18 meses', 'Retoque incluso']
     }
   ];
