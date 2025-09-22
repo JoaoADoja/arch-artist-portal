@@ -4,6 +4,7 @@ import { Scissors, Palette, Sparkles, Clock, MapPin, Heart } from 'lucide-react'
 import threadingService from '@/assets/threading-service.jpg';
 import designService from '@/assets/design-service.jpg';
 import microbladeService from '@/assets/microblading-service.jpg';
+import hennaService from '@/assets/henna-service.jpg';
 
 interface ServicesProps {
   onBookingClick: () => void;
@@ -28,7 +29,7 @@ const Services = ({ onBookingClick }: ServicesProps) => {
       description: 'Coloração natural que realça e define suas sobrancelhas',
       price: 'R$ 60',
       duration: '60 min',
-      image: threadingService,
+      image: hennaService,
       features: ['Coloração natural', 'Efeito duradouro', 'Cor personalizada']
     },
     {
