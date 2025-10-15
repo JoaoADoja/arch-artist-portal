@@ -46,7 +46,43 @@ const Contact = ({ onBookingClick }: ContactProps) => {
           </p>
         </div>
 
-       
+        <div className="grid lg:grid-cols-2 gap-12">
+          {/* Contact Form */}
+          <Card className="shadow-premium">
+            <CardHeader>
+              <CardTitle className="text-2xl font-cormorant">
+                Envie uma Mensagem
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="name">Nome Completo</Label>
+                  <Input
+                    id="name"
+                    placeholder="Seu nome"
+                    className="h-12"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="phone">Telefone</Label>
+                  <Input
+                    id="phone"
+                    placeholder="(11) 99999-9999"
+                    className="h-12"
+                  />
+                </div>
+              </div>
+              
+              <div className="space-y-2">
+                <Label htmlFor="email">E-mail</Label>
+                <Input
+                  id="email"
+                  type="email"
+                  placeholder="seu@email.com"
+                  className="h-12"
+                />
+              </div>
 
               <div className="space-y-2">
                 <Label htmlFor="service">Serviço de Interesse</Label>
