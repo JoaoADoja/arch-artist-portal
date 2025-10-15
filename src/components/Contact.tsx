@@ -99,7 +99,7 @@ const Contact = ({ onBookingClick }: ContactProps) => {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message">Mensagem</Label>
+                <Label htmlFor="message">Mensagem que não iremos retornar!</Label>
                 <Textarea
                   id="message"
                   placeholder="Conte-nos como podemos ajudar..."
@@ -148,7 +148,7 @@ const Contact = ({ onBookingClick }: ContactProps) => {
             {/* Social Links */}
             <Card className="p-6">
               <h3 className="font-semibold text-foreground mb-4">
-                Siga-nos nas Redes Sociais
+                Siga-nos nas Redes Sociais para nada pq não usamos redes!
               </h3>
               <div className="space-y-3">
                 {socialLinks.map((social, index) => (
